@@ -13,7 +13,8 @@ pod 'FBSDKLoginKit'
 pod 'AFNetworking', '~> 3.0.4'
 pod 'AppDevKit'
 pod 'FastttCamera'
-pod 'Alamofire', '~> 1.2'
+pod 'Alamofire', '~> 4.0'
+
 
 end
 
