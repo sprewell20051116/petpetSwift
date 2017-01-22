@@ -15,6 +15,8 @@
 		100892031E34E24D00702F12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 100892011E34E24D00702F12 /* LaunchScreen.storyboard */; };
 		1008920E1E34E24D00702F12 /* petpetSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1008920D1E34E24D00702F12 /* petpetSwiftTests.swift */; };
 		100892191E34E24D00702F12 /* petpetSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100892181E34E24D00702F12 /* petpetSwiftUITests.swift */; };
+		1082C7C81E34E3C9005F14AC /* networkModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1082C7C71E34E3C9005F14AC /* networkModule.swift */; };
+		B3508318404D0280F64D873A /* Pods_petpetSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C168C9251A1637F335A8ABAF /* Pods_petpetSwift.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,11 @@
 		100892141E34E24D00702F12 /* petpetSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = petpetSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		100892181E34E24D00702F12 /* petpetSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = petpetSwiftUITests.swift; sourceTree = "<group>"; };
 		1008921A1E34E24D00702F12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		100892261E34E2F000702F12 /* petpetSwift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "petpetSwift-Bridging-Header.h"; sourceTree = "<group>"; };
+		1082C7C71E34E3C9005F14AC /* networkModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = networkModule.swift; sourceTree = "<group>"; };
+		583BD41200A4015436AE0E56 /* Pods-petpetSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-petpetSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-petpetSwift/Pods-petpetSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		C168C9251A1637F335A8ABAF /* Pods_petpetSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_petpetSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3C2F71FE38409B14D2785FD /* Pods-petpetSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-petpetSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-petpetSwift/Pods-petpetSwift.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3508318404D0280F64D873A /* Pods_petpetSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +91,8 @@
 				1008920C1E34E24D00702F12 /* petpetSwiftTests */,
 				100892171E34E24D00702F12 /* petpetSwiftUITests */,
 				100891F31E34E24D00702F12 /* Products */,
+				11CB23EF59D895D098980EAC /* Pods */,
+				AD63811B4FCF72BE7D971601 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,11 +111,13 @@
 			children = (
 				100891F51E34E24D00702F12 /* AppDelegate.swift */,
 				100891F71E34E24D00702F12 /* ViewController.swift */,
+				1082C7C71E34E3C9005F14AC /* networkModule.swift */,
 				100891F91E34E24D00702F12 /* Main.storyboard */,
 				100891FF1E34E24D00702F12 /* Assets.xcassets */,
 				100892011E34E24D00702F12 /* LaunchScreen.storyboard */,
 				100892041E34E24D00702F12 /* Info.plist */,
 				100891FC1E34E24D00702F12 /* petpetSwift.xcdatamodeld */,
+				100892261E34E2F000702F12 /* petpetSwift-Bridging-Header.h */,
 			);
 			path = petpetSwift;
 			sourceTree = "<group>";
@@ -128,6 +140,23 @@
 			path = petpetSwiftUITests;
 			sourceTree = "<group>";
 		};
+		11CB23EF59D895D098980EAC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				583BD41200A4015436AE0E56 /* Pods-petpetSwift.debug.xcconfig */,
+				E3C2F71FE38409B14D2785FD /* Pods-petpetSwift.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AD63811B4FCF72BE7D971601 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C168C9251A1637F335A8ABAF /* Pods_petpetSwift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +164,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1008921D1E34E24D00702F12 /* Build configuration list for PBXNativeTarget "petpetSwift" */;
 			buildPhases = (
+				6D4010F062D755D3459F2BB1 /* [CP] Check Pods Manifest.lock */,
 				100891EE1E34E24D00702F12 /* Sources */,
 				100891EF1E34E24D00702F12 /* Frameworks */,
 				100891F01E34E24D00702F12 /* Resources */,
+				E191C23008E92AE987FB6A2F /* [CP] Embed Pods Frameworks */,
+				F4A50EEFDAC5EBC5361BC48F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -197,6 +229,7 @@
 					100891F11E34E24D00702F12 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 97365M2U5B;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					100892081E34E24D00702F12 = {
@@ -260,6 +293,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6D4010F062D755D3459F2BB1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E191C23008E92AE987FB6A2F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-petpetSwift/Pods-petpetSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4A50EEFDAC5EBC5361BC48F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-petpetSwift/Pods-petpetSwift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		100891EE1E34E24D00702F12 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -267,6 +348,7 @@
 			files = (
 				100891F81E34E24D00702F12 /* ViewController.swift in Sources */,
 				100891FE1E34E24D00702F12 /* petpetSwift.xcdatamodeld in Sources */,
+				1082C7C81E34E3C9005F14AC /* networkModule.swift in Sources */,
 				100891F61E34E24D00702F12 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -415,26 +497,33 @@
 		};
 		1008921E1E34E24D00702F12 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 583BD41200A4015436AE0E56 /* Pods-petpetSwift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 97365M2U5B;
 				INFOPLIST_FILE = petpetSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = HippoColors.petpetSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "petpetSwift/petpetSwift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		1008921F1E34E24D00702F12 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3C2F71FE38409B14D2785FD /* Pods-petpetSwift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 97365M2U5B;
 				INFOPLIST_FILE = petpetSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = HippoColors.petpetSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "petpetSwift/petpetSwift-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -516,6 +605,7 @@
 				1008921F1E34E24D00702F12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		100892201E34E24D00702F12 /* Build configuration list for PBXNativeTarget "petpetSwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +614,7 @@
 				100892221E34E24D00702F12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		100892231E34E24D00702F12 /* Build configuration list for PBXNativeTarget "petpetSwiftUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +623,7 @@
 				100892251E34E24D00702F12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
