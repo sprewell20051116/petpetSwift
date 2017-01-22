@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1004B53F1E34F39B0081B536 /* firebaseModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1004B53E1E34F39B0081B536 /* firebaseModule.swift */; };
 		100891F61E34E24D00702F12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100891F51E34E24D00702F12 /* AppDelegate.swift */; };
 		100891F81E34E24D00702F12 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100891F71E34E24D00702F12 /* ViewController.swift */; };
 		100891FB1E34E24D00702F12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 100891F91E34E24D00702F12 /* Main.storyboard */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1004B53E1E34F39B0081B536 /* firebaseModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = firebaseModule.swift; sourceTree = "<group>"; };
 		100891F21E34E24D00702F12 /* petpetSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = petpetSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		100891F51E34E24D00702F12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		100891F71E34E24D00702F12 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 				100891FC1E34E24D00702F12 /* petpetSwift.xcdatamodeld */,
 				100892261E34E2F000702F12 /* petpetSwift-Bridging-Header.h */,
 				1082C7C91E34E5A2005F14AC /* GoogleService-Info.plist */,
+				1004B53E1E34F39B0081B536 /* firebaseModule.swift */,
 			);
 			path = petpetSwift;
 			sourceTree = "<group>";
@@ -350,6 +353,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1004B53F1E34F39B0081B536 /* firebaseModule.swift in Sources */,
 				100891F81E34E24D00702F12 /* ViewController.swift in Sources */,
 				100891FE1E34E24D00702F12 /* petpetSwift.xcdatamodeld in Sources */,
 				1082C7C81E34E3C9005F14AC /* networkModule.swift in Sources */,

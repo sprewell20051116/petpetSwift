@@ -9,12 +9,11 @@ pod 'Firebase/Auth'
 pod 'Firebase/Messaging'
 pod 'Firebase/Storage'
 pod 'Firebase/Database'
+pod 'GoogleSignIn'
 pod 'FBSDKLoginKit'
 pod 'AFNetworking', '~> 3.0.4'
 pod 'AppDevKit'
 pod 'FastttCamera'
 pod 'Alamofire', '~> 4.0'
-
-
 end
 
