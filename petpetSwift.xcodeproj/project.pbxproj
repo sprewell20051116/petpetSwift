@@ -16,8 +16,8 @@
 		100892031E34E24D00702F12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 100892011E34E24D00702F12 /* LaunchScreen.storyboard */; };
 		1008920E1E34E24D00702F12 /* petpetSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1008920D1E34E24D00702F12 /* petpetSwiftTests.swift */; };
 		100892191E34E24D00702F12 /* petpetSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100892181E34E24D00702F12 /* petpetSwiftUITests.swift */; };
+		103495D01E37A9CA00B99126 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 103495CF1E37A9CA00B99126 /* GoogleService-Info.plist */; };
 		1082C7C81E34E3C9005F14AC /* networkModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1082C7C71E34E3C9005F14AC /* networkModule.swift */; };
-		1082C7CA1E34E5A2005F14AC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1082C7C91E34E5A2005F14AC /* GoogleService-Info.plist */; };
 		B3508318404D0280F64D873A /* Pods_petpetSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C168C9251A1637F335A8ABAF /* Pods_petpetSwift.framework */; };
 /* End PBXBuildFile section */
 
@@ -55,8 +55,8 @@
 		100892181E34E24D00702F12 /* petpetSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = petpetSwiftUITests.swift; sourceTree = "<group>"; };
 		1008921A1E34E24D00702F12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		100892261E34E2F000702F12 /* petpetSwift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "petpetSwift-Bridging-Header.h"; sourceTree = "<group>"; };
+		103495CF1E37A9CA00B99126 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		1082C7C71E34E3C9005F14AC /* networkModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = networkModule.swift; sourceTree = "<group>"; };
-		1082C7C91E34E5A2005F14AC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		583BD41200A4015436AE0E56 /* Pods-petpetSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-petpetSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-petpetSwift/Pods-petpetSwift.debug.xcconfig"; sourceTree = "<group>"; };
 		C168C9251A1637F335A8ABAF /* Pods_petpetSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_petpetSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3C2F71FE38409B14D2785FD /* Pods-petpetSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-petpetSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-petpetSwift/Pods-petpetSwift.release.xcconfig"; sourceTree = "<group>"; };
@@ -122,8 +122,8 @@
 				100892041E34E24D00702F12 /* Info.plist */,
 				100891FC1E34E24D00702F12 /* petpetSwift.xcdatamodeld */,
 				100892261E34E2F000702F12 /* petpetSwift-Bridging-Header.h */,
-				1082C7C91E34E5A2005F14AC /* GoogleService-Info.plist */,
 				1004B53E1E34F39B0081B536 /* firebaseModule.swift */,
+				103495CF1E37A9CA00B99126 /* GoogleService-Info.plist */,
 			);
 			path = petpetSwift;
 			sourceTree = "<group>";
@@ -278,7 +278,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				100892031E34E24D00702F12 /* LaunchScreen.storyboard in Resources */,
-				1082C7CA1E34E5A2005F14AC /* GoogleService-Info.plist in Resources */,
+				103495D01E37A9CA00B99126 /* GoogleService-Info.plist in Resources */,
 				100892001E34E24D00702F12 /* Assets.xcassets in Resources */,
 				100891FB1E34E24D00702F12 /* Main.storyboard in Resources */,
 			);
